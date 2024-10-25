@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    color: black;
+    background-image: url("../images/galaxy.png");
+    opacity: 1;
+  }
+}
+
+body {
+  background-image: url("../images/galaxy.png");
+  background-color: black;
+  overflow: scroll;
+  font-family: courier, sans-serif;
+  padding: 10px;
+}
+
+h1, h2 {
+  font-family: impact;
+  text-align: right;
+  text-transform: uppercase;
+  color: red;
+  font-size: 2.5em;
+}
+
+
+/* Lists */
+
+ul {
+  color: white;
+  text-align: right;
+}
+
+li {
+  text-align: right;
+  padding-top: 5px;
+  list-style: none;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: pink;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+#index {
+  float: right;
+}
+
+hr {
+  float: right;
+  width: 200px;
+}
